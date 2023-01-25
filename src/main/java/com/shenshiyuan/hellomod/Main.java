@@ -25,18 +25,6 @@ public class Main {
         player.sendMessage(new TextComponent("Hello," + player.getDisplayName().getString()), Util.NIL_UUID);
     }
 
-//    @SubscribeEvent
-//    public static void leftClickBlock(PlayerInteractEvent.LeftClickBlock event) {
-//        Player player = event.getPlayer();
-//        player.sendMessage(new TextComponent("LeftCLickBlock is fired."), Util.NIL_UUID);
-//    }
-
-//    @SubscribeEvent
-//    public static void rightClickBlock(PlayerInteractEvent.RightClickBlock event) {
-//        Player player = event.getPlayer();
-//        player.sendMessage(new TextComponent("RightClickBlock is fired."), Util.NIL_UUID);
-//    }
-
     @SubscribeEvent
     public static void rightClickItem(PlayerInteractEvent.RightClickItem event) {
         Player player = event.getPlayer();
